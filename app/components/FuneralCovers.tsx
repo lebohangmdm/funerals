@@ -15,7 +15,7 @@ const FuneralCovers = () => {
         <h3 className="text-xl lg:text-2xl font-semibold text-blue-500 mb-4 md:mb-12 lg:mb-16">
           Funeral Plans Designed Around Family Support
         </h3>
-        <div className=" xl:mt-20 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className=" xl:mt-20 grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
           {funeralPlans.map((plan) => (
             <FuneralCoverCard key={plan.name} {...plan} />
           ))}

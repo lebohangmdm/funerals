@@ -471,12 +471,11 @@ export default function TopUpSection() {
                     <div
                       className="
                         relative
-                        min-h-[280px]
+                        min-h-[360px]
                         w-full
                         overflow-hidden
                         rounded-xl
                         bg-slate-100
-                        sm:min-h-[360px]
                         sm:rounded-2xl
                         md:min-h-[420px]
                         lg:h-full
