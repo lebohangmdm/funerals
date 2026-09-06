@@ -20,6 +20,7 @@ type Plan = {
   preFuneralFund: string;
   casketOffering: string[];
   premiums: Premium[];
+  image?: string;
 };
 export default function FuneralPlan({
   cover: { plan },
@@ -95,13 +96,13 @@ export default function FuneralPlan({
                 </div>
 
                 {/* Casket image */}
-                <div className="relative hidden h-32 w-full md:block">
+                <div className="relative hidden md:h-72 mx-auto w-full md:block">
                   <Image
-                    src="/images/casket.png"
+                    src={plan.image || "/images/casket-1.webp"}
                     alt="Casket included with the funeral plan"
                     fill
                     sizes="(min-width: 768px) 400px"
-                    className="object-contain object-left"
+                    className="object-contain object-center"
                   />
                 </div>
               </section>

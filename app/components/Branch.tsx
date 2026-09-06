@@ -11,7 +11,7 @@ const Branch = () => {
           <p className="text-sm md:text-base lg:text-lg font-bold text-blue-700">
             Our Locations
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-500 mb-1 lg:mb-2">
+          <h2 className="text-3xl md:text-4xl font-[--font-playfair]  lg:text-5xl font-bold  text-blue-500 mb-1 lg:mb-2">
             Find a branch
           </h2>
           <p className="text-base lg:text-lg text-slate-600 max-w-xl">

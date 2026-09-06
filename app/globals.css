@@ -144,3 +144,13 @@ body {
     @apply font-sans;
   }
 }
+
+body {
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair);
+}

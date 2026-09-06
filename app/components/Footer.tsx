@@ -93,54 +93,60 @@ const Footer = () => {
           <div className="space-y-4">
             <p className="text-xl md:text-2xl font-semibold">Contact Details</p>
 
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <Link
-                  href="tel:0781233495"
-                  className="text-base md:text-lg font-medium hover:text-blue-500 transition-colors"
-                >
-                  078 123 3495
-                </Link>
-              </div>
+            <div className="space-y-6">
+              {/* Contact Details */}
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <Phone className="h-4 w-4 lg:w-5 lg:h-5 shrink-0" />
+                  <Link
+                    href="tel:0781233495"
+                    className="text-base md:text-lg font-medium hover:text-blue-500 transition-colors"
+                  >
+                    078 123 3495
+                  </Link>
+                </div>
 
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
-                <Link
-                  href="mailto:info@funeral.co.za"
-                  className="text-base md:text-lg font-medium"
-                >
-                  info@funeral.co.za
-                </Link>
-              </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4 lg:w-5 lg:h-5 shrink-0" />
+                  <Link
+                    href="mailto:info@funeral.co.za"
+                    className="text-base md:text-lg font-medium"
+                  >
+                    info@funeral.co.za
+                  </Link>
+                </div>
 
-              <div className="flex items-center gap-2">
-                <FaWhatsapp className="h-4 w-4" />
-                <a
-                  href="https://wa.me/27721234782"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-base md:text-lg font-medium transition-all hover:text-blue-200"
-                >
-                  072 123 4782
-                </a>
-              </div>
-            </div>
-
-            <div className="space-y-2">
-              <p className="text-lg md:text-xl font-semibold">Head Office</p>
-              <div className="flex gap-2">
-                <MapPin className="w-8 h-8" />
-                <address className="not-italic text-base md:text-lg">
+                <div className="flex items-center gap-2">
+                  <FaWhatsapp className="h-4 w-4 lg:w-5 lg:h-5 shrink-0" />
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=123+Palm+Spring+Street,+Orange+Farm,+Johannesburg+2194"
+                    href="https://wa.me/27721234782"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-blue-200 transition-colors"
+                    className="text-base md:text-lg font-medium transition-all hover:text-blue-200"
                   >
-                    123 Palm Spring Street, Orange Farm, Johannesburg 2194
+                    072 123 4782
                   </a>
-                </address>
+                </div>
+              </div>
+
+              {/* Head Office */}
+              <div className="space-y-2">
+                <p className="text-lg md:text-xl font-semibold">Head Office</p>
+
+                <div className="flex items-start gap-2">
+                  <MapPin className="h-4 w-4 lg:w-5 lg:h-5 shrink-0" />
+
+                  <address className="not-italic text-base md:text-lg">
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=123+Palm+Spring+Street,+Orange+Farm,+Johannesburg+2194"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-200 transition-colors"
+                    >
+                      123 Palm Spring Street, Orange Farm, Johannesburg 2194
+                    </a>
+                  </address>
+                </div>
               </div>
             </div>
           </div>

@@ -78,7 +78,7 @@ const FuneralCovers = () => {
             lg:text-lg
     "
           >
-            <Download className="size-4 shrink-0 sm:size-5" />
+            <Download className="w-4 h-4 shrink-0" />
             <span>Download Brochure</span>
           </Link>
         </div>

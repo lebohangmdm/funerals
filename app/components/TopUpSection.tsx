@@ -201,7 +201,7 @@ export default function TopUpSection() {
             Extend your protection
           </p>
 
-          <h2 className="text-3xl font-bold tracking-tight text-white  md:text-5xl lg:text-6xl">
+          <h2 className="text-3xl font-bold font-[--font-playfair] tracking-tight text-white  md:text-5xl lg:text-6xl">
             Top-Ups
           </h2>
 

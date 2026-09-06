@@ -20,6 +20,7 @@ type Plan = {
     individual: string;
     family: string;
   }[];
+  image?: string;
 };
 
 const plans: Plan[] = [
@@ -74,6 +75,7 @@ const plans: Plan[] = [
         family: "R200",
       },
     ],
+    image: "/caskets/casket-1.webp",
   },
 
   {
@@ -118,6 +120,7 @@ const plans: Plan[] = [
         family: "R250",
       },
     ],
+    image: "/caskets/casket-2.webp",
   },
 
   {
@@ -421,9 +424,9 @@ export default function FuneralPlans() {
                       </div>
 
                       {/* Casket image */}
-                      <div className="relative hidden h-32 w-full md:block">
+                      <div className="relative hidden md:h-72 w-full md:block">
                         <Image
-                          src="/images/casket.png"
+                          src={plan.image || "/images/casket-1.webp"}
                           alt="Casket included with the funeral plan"
                           fill
                           className="object-contain"
