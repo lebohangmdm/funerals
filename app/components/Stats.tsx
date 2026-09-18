@@ -42,11 +42,11 @@ export default function Stats() {
       /> */}
 
       <div className="">
-        <div className="grid grid-cols-2 gap-4 bg-bluesh ">
+        <div className="grid grid-cols-2 gap-4  ">
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="group relative overflow-hidden rounded-2xl border border-white/15 bg-blue-500 p-6 shadow-sm backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl sm:p-7"
+              className="group relative overflow-hidden rounded-2xl border border-white/15 bg-orange-500 p-6 shadow-sm backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl sm:p-7"
             >
               {/* Top accent */}
 

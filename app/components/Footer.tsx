@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="py-12 md:py-16 lg:py-20 xl:py-24 bg-blue-600 text-white">
+    <section className="py-12 md:py-16 lg:py-20 xl:py-24 bg-orange-600 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="grid grid-cols-2 items-start md:grid-cols-3 lg:grid-cols-[1.5fr_1fr_1fr_1.5fr] gap-8 lg:gap-12">
           <div className="flex flex-col justify-between gap-4 ">
@@ -30,7 +30,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/#about"
-                  className="transition-colors hover:text-blue-200 md:text-lg"
+                  className="transition-colors hover:text-orange-200 md:text-lg"
                 >
                   About Us
                 </Link>
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/#faqs"
-                  className="transition-colors hover:text-blue-200 md:text-lg"
+                  className="transition-colors hover:text-orange-200 md:text-lg"
                 >
                   FAQs
                 </Link>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/#branch"
-                  className="transition-colors hover:text-blue-200 md:text-lg"
+                  className="transition-colors hover:text-orange-200 md:text-lg"
                 >
                   Branch Locations
                 </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/#contact"
-                  className="transition-colors hover:text-blue-200 md:text-lg"
+                  className="transition-colors hover:text-orange-200 md:text-lg"
                 >
                   Contact Us
                 </Link>
@@ -67,7 +67,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/funeral-plans"
-                  className="transition-colors  hover:text-blue-200 md:text-lg"
+                  className="transition-colors  hover:text-orange-200 md:text-lg"
                 >
                   Funeral Plans
                 </Link>
@@ -75,7 +75,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/services"
-                  className="transition-colors hover:text-blue-200 md:text-lg"
+                  className="transition-colors hover:text-orange-200 md:text-lg"
                 >
                   Services
                 </Link>
@@ -83,7 +83,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/#top-ups"
-                  className="transition-colors hover:text-blue-200 md:text-lg"
+                  className="transition-colors hover:text-orange-200 md:text-lg"
                 >
                   Top Ups
                 </Link>
@@ -100,7 +100,7 @@ const Footer = () => {
                   <Phone className="h-4 w-4 lg:w-5 lg:h-5 shrink-0" />
                   <Link
                     href="tel:0781233495"
-                    className="text-base md:text-lg font-medium hover:text-blue-500 transition-colors"
+                    className="text-base md:text-lg font-medium hover:text-orange-500 transition-colors"
                   >
                     078 123 3495
                   </Link>
@@ -122,7 +122,7 @@ const Footer = () => {
                     href="https://wa.me/27721234782"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-base md:text-lg font-medium transition-all hover:text-blue-200"
+                    className="text-base md:text-lg font-medium transition-all hover:text-orange-200"
                   >
                     072 123 4782
                   </a>
@@ -141,7 +141,7 @@ const Footer = () => {
                       href="https://www.google.com/maps/search/?api=1&query=123+Palm+Spring+Street,+Orange+Farm,+Johannesburg+2194"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-blue-200 transition-colors"
+                      className="hover:text-orange-200 transition-colors"
                     >
                       123 Palm Spring Street, Orange Farm, Johannesburg 2194
                     </a>

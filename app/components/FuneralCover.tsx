@@ -6,14 +6,14 @@ import Link from "next/link";
 
 const FuneralCover = () => {
   return (
-    <section className="py-12 md:py-16 lg:py-20 xl:py-24 bg-blue-50">
+    <section className="py-12 md:py-16 lg:py-20 xl:py-24 bg-orange-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-14">
           <div>
-            <p className="text-sm md:text-base lg:text-lg font-bold text-blue-700">
+            <p className="text-sm md:text-base lg:text-lg font-bold text-orange-700">
               Funeral Cover
             </p>
-            <h2 className="mt-2 text-3xl md:text-4xl lg:text-5xl font-bold text-blue-500">
+            <h2 className="mt-2 text-3xl md:text-4xl lg:text-5xl font-bold text-orange-500">
               Reliable, affordable Funeral Cover starting from only R180 p/m.
             </h2>
 
@@ -33,7 +33,7 @@ const FuneralCover = () => {
 
             <Button
               size="sm"
-              className="max-w-44 min-h-11 bg-blue-500 px-4 py-2 font-semibold text-white rounded-md cursor-pointer transition-colors cursor-pointer duration-300 hover:bg-blue-600 sm:w-52 sm:px-6 sm:py-3 lg:text-lg"
+              className="max-w-44 min-h-11 bg-orange-500 px-4 py-2 font-semibold text-white rounded-md cursor-pointer transition-colors  duration-300 hover:bg-orange-600 sm:w-52 sm:px-6 sm:py-3 lg:text-lg"
             >
               <Link href={"/#contact"}>Join Us</Link>
             </Button>

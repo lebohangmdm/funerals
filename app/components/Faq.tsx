@@ -15,7 +15,7 @@ const Faq = () => {
               Customer Service Centre a call on{" "}
               <a
                 href="tel:0860225246"
-                className="text-blue-500 hover:text-blue-700 block"
+                className="text-orange-500 hover:text-orange-700 block"
               >
                 086 022 5246
               </a>

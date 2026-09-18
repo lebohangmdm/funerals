@@ -33,7 +33,7 @@ export default function FuneralCoverCard({
     <Card className="relative flex h-full flex-col overflow-hidden rounded-xl py-6  border shadow-sm transition-shadow hover:shadow-md">
       {popular && (
         <div className="absolute right-4 top-4 ">
-          <Badge className="bg-blue-500 text-white lg:text-base min-h-6 ">
+          <Badge className="bg-orange-500 text-white lg:text-base min-h-6 ">
             Most Popular
           </Badge>
         </div>
@@ -56,7 +56,7 @@ export default function FuneralCoverCard({
           <p className="text-sm text-slate-800">Monthly premium</p>
 
           <div className="mt-1 flex items-baseline gap-1">
-            <span className="text-3xl lg:text-4xl font-bold tracking-tight text-blue-500">
+            <span className="text-3xl lg:text-4xl font-bold tracking-tight text-orange-500">
               R{premium}
             </span>
             <span className="text-sm text-muted-foreground">/ month</span>
@@ -94,7 +94,7 @@ export default function FuneralCoverCard({
       <CardFooter className="pt-2">
         <Link
           href={`/funeral-plans/${id}`}
-          className="mt-4 flex min-h-11 w-full items-center justify-center rounded-lg bg-blue-500 px-4 font-semibold text-white transition-colors duration-150 hover:bg-blue-600 sm:px-6 lg:px-8 lg:text-lg"
+          className="mt-4 flex min-h-11 w-full items-center justify-center rounded-lg bg-orange-500 px-4 font-semibold text-white transition-colors duration-150 hover:bg-orange-600 sm:px-6 lg:px-8 lg:text-lg"
         >
           View Plan Details
         </Link>

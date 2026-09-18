@@ -73,7 +73,7 @@ const ContactForm = () => {
   return (
     <Card className="rounded-sm bg-white border-none w-full mx-auto px-4 sm:px-6 md:px-8 py-6 md:py-8 lg:py-10">
       <CardHeader>
-        <CardTitle className="text-xl md:text-2xl text-left font-bold mb-4 text-blue-500">
+        <CardTitle className="text-xl md:text-2xl text-left font-bold mb-4 text-orange-500">
           Leave us a message and we’ll get back to you.
         </CardTitle>
       </CardHeader>
@@ -174,7 +174,7 @@ const ContactForm = () => {
               type="submit"
               disabled={isSubmitting}
               size="lg"
-              className="w-48 min-h-11 bg-blue-500 px-4 py-2 font-semibold text-white rounded-md transition-colors duration-150 hover:bg-blue-600 sm:w-52 sm:px-6 sm:py-3 lg:text-lg"
+              className="w-48 min-h-11 bg-orange-500 px-4 py-2 font-semibold text-white rounded-md transition-colors duration-150 hover:bg-orange-600 sm:w-52 sm:px-6 sm:py-3 lg:text-lg"
             >
               {isSubmitting ? "Sending..." : "Submit"}
             </Button>

@@ -8,10 +8,10 @@ const Branch = () => {
     <section id="branch" className="py-12 md:py-16 lg:py-20 xl:py-24 ">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="max-w-2xl">
-          <p className="text-sm md:text-base lg:text-lg font-bold text-blue-700">
+          <p className="text-sm md:text-base lg:text-lg font-bold text-orange-700">
             Our Locations
           </p>
-          <h2 className="text-3xl md:text-4xl font-[--font-playfair]  lg:text-5xl font-bold  text-blue-500 mb-1 lg:mb-2">
+          <h2 className="text-3xl md:text-4xl font-[--font-playfair]  lg:text-5xl font-bold  text-orange-500 mb-1 lg:mb-2">
             Find a branch
           </h2>
           <p className="text-base lg:text-lg text-slate-600 max-w-xl">
@@ -57,17 +57,17 @@ const Branch = () => {
                     href={branch.mapUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-start gap-2 text-slate-600 transition-colors hover:text-blue-600"
+                    className="flex items-start gap-2 text-slate-600 transition-colors hover:text-orange-600"
                   >
-                    <MapPin className="mt-1 h-4 w-4 shrink-0 text-blue-500" />
+                    <MapPin className="mt-1 h-4 w-4 shrink-0 text-orange-500" />
                     <span>{branch.address}</span>
                   </a>
 
                   <a
                     href={`tel:${branch.phone.replace(/\s/g, "")}`}
-                    className="flex items-center gap-2 text-slate-600 transition-colors hover:text-blue-600"
+                    className="flex items-center gap-2 text-slate-600 transition-colors hover:text-orange-600"
                   >
-                    <Phone className="h-4 w-4 shrink-0 text-blue-500" />
+                    <Phone className="h-4 w-4 shrink-0 text-orange-500" />
                     <span>{branch.phone}</span>
                   </a>
 
@@ -75,7 +75,7 @@ const Branch = () => {
                     href={branch.mapUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 inline-flex w-fit items-center rounded-full bg-blue-500 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-600"
+                    className="mt-2 inline-flex w-fit items-center rounded-full bg-orange-500 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-orange-600"
                   >
                     Get Directions
                   </a>

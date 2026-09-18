@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
           {/* Content */}
           <div>
-            <h1 className="mb-4 text-4xl font-bold text-blue-500 md:text-5xl lg:mb-6 lg:text-6xl">
+            <h1 className="mb-4 text-4xl font-bold text-orange-500 md:text-5xl lg:mb-6 lg:text-6xl">
               Supporting Your Family, Always
             </h1>
 
@@ -27,7 +27,7 @@ const Hero = () => {
             <div className="flex items-center gap-4 sm:gap-6">
               <Link
                 href="/funeral-plans"
-                className="min-h-11 rounded-lg bg-blue-500 px-4 py-2 font-semibold text-white transition-all duration-150 hover:bg-blue-600 sm:px-6 lg:min-h-12 lg:px-8 lg:text-lg"
+                className="min-h-11 rounded-lg bg-orange-500 px-4 py-2 font-semibold text-white transition-all duration-150 hover:bg-orange-600 sm:px-6 lg:min-h-12 lg:px-8 lg:text-lg"
               >
                 View Plans
               </Link>

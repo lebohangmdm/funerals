@@ -34,7 +34,7 @@ const services: Service[] = [
       "Cemetery & Municipal Coordination",
       "Compassionate Family Support",
     ],
-    icon: <Shovel className="size-8 text-blue-500" />,
+    icon: <Shovel className="size-8 text-orange-500" />,
   },
 
   {
@@ -48,7 +48,7 @@ const services: Service[] = [
       "Funeral Setup",
       "Gravesite Support Services",
     ],
-    icon: <Flower2 className="size-8 text-blue-500" />,
+    icon: <Flower2 className="size-8 text-orange-500" />,
   },
   {
     name: "Cremation Service",
@@ -61,7 +61,7 @@ const services: Service[] = [
       "Compassionate Family Guidance",
       "Professional Funeral Assistance",
     ],
-    icon: <Flame className="size-8 text-blue-500" />,
+    icon: <Flame className="size-8 text-orange-500" />,
   },
   {
     name: "Claims Assistance",
@@ -74,7 +74,7 @@ const services: Service[] = [
       "Professional Family Assistance",
       "Dedicated Support Team",
     ],
-    icon: <ClipboardCheck className="size-8 text-blue-500" />,
+    icon: <ClipboardCheck className="size-8 text-orange-500" />,
   },
 
   {
@@ -88,7 +88,7 @@ const services: Service[] = [
       "Family Transport Coordination",
       "Compassionate Support Services",
     ],
-    icon: <User className="size-8 text-blue-500" />,
+    icon: <User className="size-8 text-orange-500" />,
   },
 
   {
@@ -102,7 +102,7 @@ const services: Service[] = [
       "Professional Coordination",
       "Family Support Services",
     ],
-    icon: <Plane className="size-8 text-blue-500" />,
+    icon: <Plane className="size-8 text-orange-500" />,
   },
 ];
 
@@ -112,11 +112,11 @@ const page = () => {
       <section className="py-12 md:py-16 lg:py-20 xl:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl ">
-            <p className="text-sm md:text-base lg:text-lg font-bold text-blue-700">
+            <p className="text-sm md:text-base lg:text-lg font-bold text-orange-700">
               Funeral Services
             </p>
 
-            <h2 className="mt- text-3xl md:text-4xl lg:text-5xl font-bold text-blue-500">
+            <h2 className="mt- text-3xl md:text-4xl lg:text-5xl font-bold text-orange-500">
               Dignified Farewells and Honouring lives
             </h2>
           </div>

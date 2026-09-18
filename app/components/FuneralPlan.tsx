@@ -35,11 +35,11 @@ export default function FuneralPlan({
           <main className="min-w-0">
             {/* Plan heading */}
             <header className="mb-8">
-              <p className="mb-2 text-xl font-medium text-blue-600 sm:text-2xl">
+              <p className="mb-2 text-xl font-medium text-orange-600 sm:text-2xl">
                 {plan.name}
               </p>
 
-              <h1 className="text-4xl font-semibold tracking-tight text-blue-500 sm:text-5xl">
+              <h1 className="text-4xl font-semibold tracking-tight text-orange-500 sm:text-5xl">
                 {plan.cover}
               </h1>
             </header>
@@ -59,7 +59,7 @@ export default function FuneralPlan({
                     >
                       <Check
                         aria-hidden="true"
-                        className="mt-1 h-5 w-5 shrink-0 text-blue-600"
+                        className="mt-1 h-5 w-5 shrink-0 text-orange-600"
                         strokeWidth={2}
                       />
 
@@ -112,7 +112,7 @@ export default function FuneralPlan({
 
           <aside
             aria-labelledby="premium-heading"
-            className="overflow-hidden rounded-[2rem] bg-blue-600 p-7 text-white shadow-sm sm:p-9 lg:sticky lg:top-24"
+            className="overflow-hidden rounded-[2rem] bg-orange-600 p-7 text-white shadow-sm sm:p-9 lg:sticky lg:top-24"
           >
             <div className="flex flex-col">
               {/* Card heading */}
@@ -195,21 +195,21 @@ export default function FuneralPlan({
         px-6
         text-base
         font-medium
-        text-blue-700
+        text-orange-700
         transition-colors
         duration-300
-        hover:bg-blue-700
+        hover:bg-orange-700
         hover:text-white
         focus-visible:outline-none
         focus-visible:ring-2
         focus-visible:ring-white
         focus-visible:ring-offset-2
-        focus-visible:ring-offset-blue-600
+        focus-visible:ring-offset-orange-600
       "
               >
                 <Download
                   aria-hidden="true"
-                  className="size-4 shrink-0 text-blue-600 transition-colors duration-300 group-hover:text-white"
+                  className="size-4 shrink-0 text-orange-600 transition-colors duration-300 group-hover:text-white"
                 />
 
                 <span>Download Brochure</span>

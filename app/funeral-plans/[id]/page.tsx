@@ -317,7 +317,7 @@ const page = async ({ params }: { params: Promise<{ id: string }> }) => {
             The funeral plan you are looking for does not exist.
           </p>
 
-          <Button className="mt-6 rounded-full bg-blue-600">
+          <Button className="mt-6 rounded-full bg-orange-600">
             <Link href="/funeral-plans">View All Plans</Link>
           </Button>
         </div>

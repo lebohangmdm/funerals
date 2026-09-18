@@ -348,9 +348,9 @@ export default function FuneralPlans() {
                   value={plan.id}
                   className={`
           rounded-none border-none bg-transparent px-4 py-3 text-sm font-medium whitespace-nowrap text-gray-700 shadow-none transition-colors
-          hover:text-blue-600
+          hover:text-orange-600
           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
-          data-[state=active]:bg-transparent data-[state=active]:text-blue-600 data-[state=active]:shadow-none
+          data-[state=active]:bg-transparent data-[state=active]:text-orange-600 data-[state=active]:shadow-none
           sm:px-6 sm:text-base
         `}
                 >
@@ -370,11 +370,11 @@ export default function FuneralPlans() {
                 {/* Left content */}
                 <div className="min-w-0">
                   <div className="mb-8">
-                    <p className="mb-2 text-xl font-medium text-blue-600 sm:text-2xl">
+                    <p className="mb-2 text-xl font-medium text-orange-600 sm:text-2xl">
                       {plan.name}
                     </p>
 
-                    <h2 className="text-4xl font-semibold tracking-tight text-blue-500 sm:text-5xl">
+                    <h2 className="text-4xl font-semibold tracking-tight text-orange-500 sm:text-5xl">
                       {plan.cover}
                     </h2>
                   </div>
@@ -389,7 +389,7 @@ export default function FuneralPlans() {
                             className="flex items-start gap-4 text-base leading-7 text-gray-800 sm:text-lg"
                           >
                             <Check
-                              className="mt-1 h-5 w-5 shrink-0 text-blue-600"
+                              className="mt-1 h-5 w-5 shrink-0 text-orange-600"
                               strokeWidth={2}
                             />
 
@@ -438,7 +438,7 @@ export default function FuneralPlans() {
                 </div>
 
                 {/* Premium card */}
-                <aside className="rounded-[2rem] bg-blue-600 p-5 lg:p-7 text-white shadow-sm sm:p-9 lg:sticky lg:top-24">
+                <aside className="rounded-[2rem] bg-orange-600 p-5 lg:p-7 text-white shadow-sm sm:p-9 lg:sticky lg:top-24">
                   <div className="flex min-h-[520px] flex-col">
                     <div>
                       <h3 className="text-4xl font-medium tracking-tight sm:text-5xl">
@@ -496,16 +496,16 @@ export default function FuneralPlans() {
                         px-6
                         text-base
                         font-medium
-                        text-blue-700
+                        text-orange-700
                         transition-all
                         duration-300
                         hover:border-transparent
-                        hover:bg-blue-700
+                        hover:bg-orange-700
                         hover:text-white
                         cursor-pointer  
                          "
                     >
-                      <Download className="size-4 text-blue-600 transition-colors duration-300 group-hover:text-white" />
+                      <Download className="size-4 text-orange-600 transition-colors duration-300 group-hover:text-white" />
                       Download Brochure
                     </Button>
                   </div>

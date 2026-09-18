@@ -16,7 +16,7 @@ import {
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 import cow from "@/public/cow.jpg";
-import stocks from "@/public/tops-image.png";
+import stocks from "@/public/inkomo.png";
 
 type Plan = {
   plan: string;
@@ -192,7 +192,7 @@ export default function TopUpSection() {
   return (
     <section
       id="top-ups"
-      className="w-full overflow-hidden bg-blue-500 py-12 sm:py-16 lg:py-24"
+      className="w-full overflow-hidden bg-orange-600 py-12 sm:py-16 lg:py-24"
     >
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
@@ -236,7 +236,7 @@ export default function TopUpSection() {
                     whitespace-nowrap
                     rounded-t-xl rounded-b-none
                     border border-transparent
-                    bg-blue-400
+                    bg-orange-400
                     px-4
                     text-xs
                     font-medium
@@ -315,9 +315,9 @@ export default function TopUpSection() {
                   >
                     <CardHeader className="p-0">
                       <div className="mb-3 flex items-center gap-2">
-                        <CheckCircle2 className="size-5 shrink-0 text-blue-500" />
+                        <CheckCircle2 className="size-5 shrink-0 text-orange-500" />
 
-                        <span className="text-sm font-semibold text-blue-600">
+                        <span className="text-sm font-semibold text-orange-600">
                           Premiums
                         </span>
                       </div>
@@ -432,14 +432,14 @@ export default function TopUpSection() {
                           min-h-11
                           w-full
                           rounded-md
-                          bg-blue-500
+                          bg-orange-500
                           px-5
                           py-3
                           font-semibold
                           text-white
                           transition-colors
                           duration-200
-                          hover:bg-blue-600
+                          hover:bg-orange-600
                           sm:mt-8
                           sm:w-52
                         "

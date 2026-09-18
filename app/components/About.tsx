@@ -8,10 +8,10 @@ const About = () => {
         <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12 lg:gap-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <p className="text-sm md:text-base lg:text-lg font-bold text-blue-700 ">
+              <p className="text-sm md:text-base  lg:text-lg font-bold text-orange-700 ">
                 About Us
               </p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-500 mb-4 lg:mb-6 ">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-orange-500 mb-4 lg:mb-6 ">
                 We offer affordable funeral services for all in your care.
               </h2>
               <p className="text-base  md:text-lg xl:text-xl max-w-2xl lg:mb-4">
@@ -29,17 +29,17 @@ const About = () => {
                     items-center
                     justify-center
                     rounded-lg
-                    bg-blue-500
+                    bg-orange-500
                     px-4
                     min-h-11
                     font-semibold
                     text-white
                     transition-colors
                     duration-150
-                    hover:bg-blue-600
+                    hover:bg-orange-600
                     focus-visible:outline-none
                     focus-visible:ring-2
-                    focus-visible:ring-blue-500
+                    focus-visible:ring-orange-500
                     focus-visible:ring-offset-2
                     sm:px-6 
                     lg:px-8 lg:text-lg

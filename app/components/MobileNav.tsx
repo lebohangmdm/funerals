@@ -86,12 +86,12 @@ export function MobileNav() {
                     min-h-12
                     items-center
                     border-b
-                    border-blue-400
+                    border-orange-400
                     text-base
                     font-semibold
                     text-foreground
                     transition-colors
-                    hover:text-blue-600
+                    hover:text-orange-600
                   "
                 >
                   {item.label}
@@ -111,13 +111,13 @@ export function MobileNav() {
                   items-center
                   justify-center
                   rounded-lg
-                  bg-blue-500
+                  bg-orange-500
                   px-5
                   text-sm
                   font-semibold
                   text-white
                   transition-colors
-                  hover:bg-blue-600
+                  hover:bg-orange-600
                 "
               >
                 Get Cover

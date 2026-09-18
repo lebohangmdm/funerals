@@ -47,7 +47,7 @@ export default function ServiceCard({
 
       {/* Header */}
       <CardHeader className="mt-8">
-        <CardTitle className="text-lg md:text-xl lg:text-2xl font-bold text-blue-500">
+        <CardTitle className="text-lg md:text-xl lg:text-2xl font-bold text-orange-500">
           {name}
         </CardTitle>
 
@@ -62,7 +62,7 @@ export default function ServiceCard({
           {list.map((item) => (
             <li key={item} className="flex items-center gap-2">
               {/* <span className="mt-2 size-1.5 shrink-0 rounded-full bg-blue-500" /> */}
-              <Check className="w-4 h-4  text-blue-500" />
+              <Check className="w-4 h-4  text-orange-500" />
               <span className="">{item}</span>
             </li>
           ))}
